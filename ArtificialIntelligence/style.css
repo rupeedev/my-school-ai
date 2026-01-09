@@ -143,24 +143,27 @@ footer {
 .gallery-item h3 {
     color: #66fcf1;
 
-    /* Mobile Optimization */
-    @media (max-width: 768px) {
-        header h1 {
-            font-size: 1.8rem;
-            letter-spacing: 2px;
-        }
+    margin-top: 10px;
+}
 
-        nav a {
-            display: block;
-            margin: 10px auto;
-            width: 80%;
-        }
-
-        .container {
-            padding: 0 15px;
-        }
-
-        .section-title {
-            font-size: 1.4rem;
-        }
+/* Mobile Optimization */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.8rem;
+        letter-spacing: 2px;
     }
+
+    nav a {
+        display: block;
+        margin: 10px auto;
+        width: 80%;
+    }
+
+    .container {
+        padding: 0 15px;
+    }
+
+    .section-title {
+        font-size: 1.4rem;
+    }
+}
